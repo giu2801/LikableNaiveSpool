@@ -15,9 +15,11 @@ for o in organismos:
 import re
 import Graficos
 with open('Passo 3/Catalase-aminoacidos.txt','w') as l:
+  organismos2=dict()
   for o in organismos:
     l.write(o.upper())
     l.write('\n%20s|%18s|%21s|%23s'%('Código do aminoácido','Nome do aminoácido','Número de ocorrências','Posições de ocorrências'))
+    aa3=dict()
     aa2=[]
     num=[]
     lista=''
@@ -31,5 +33,7 @@ with open('Passo 3/Catalase-aminoacidos.txt','w') as l:
           else:
             lista=lista+','+str(b.start())
         l.write('\n%20s|%18s|%21s|%23s'%(a,aa[a],dna[o].count(a),lista))
+        aa3[a]=dna[o].count(a)
+    organismos2[o]=aa3
     Graficos.simples(o,aa2,num)
     l.write('\n\n')
