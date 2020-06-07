@@ -21,4 +21,4 @@ def simples(o,aa,num):
 
   #plt.show()
 
-  fig.savefig('Catalase de '+o+'.png', transparent=False, dpi=80, bbox_inches="tight")
+  fig.savefig('Passo 3/Catalase de '+o+'.png', transparent=False, dpi=80, bbox_inches="tight")
