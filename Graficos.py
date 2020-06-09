@@ -20,7 +20,7 @@ def simples(o,aa,num):
 
   #plt.show()
 
-  fig.savefig('Passo 3/Catalase de '+o+'.png', transparent=False, dpi=80, bbox_inches="tight")
+  fig.savefig('Analise_DNA/Catalase de '+o+'.png', transparent=False, dpi=80, bbox_inches="tight")
   plt.close('all')
 
 def agrupado(aa,num):
@@ -53,5 +53,5 @@ def agrupado(aa,num):
 
   #grid
   plt.grid(axis='y')
-  plt.savefig('Passo 3/Catalase de 4 organismos.png', transparent=False, dpi=80, bbox_inches="tight")
+  plt.savefig('Analise_DNA/Catalase de 4 organismos.png', transparent=False, dpi=80, bbox_inches="tight")
   plt.close('all')
