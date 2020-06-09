@@ -21,10 +21,10 @@ def simples(o,aa,num):
   #plt.show()
 
   fig.savefig('Passo 3/Catalase de '+o+'.png', transparent=False, dpi=80, bbox_inches="tight")
+  plt.close('all')
 
 def agrupado(aa,num):
   import matplotlib.pyplot as plt
-  import matplotlib.patches as mpatches
   import numpy
 
   # data
@@ -33,27 +33,25 @@ def agrupado(aa,num):
 
   #plot data
   #use zorder to put bars in front of grid
-  bar_width=0.15
+  bar_width=0.2
   i=0
   colors=['green','red','orange','blue']
   for o in organismos:
-    plt.bar(x + bar_width*i, num[o], width=bar_width, color=colors[i], zorder=2)
+    plt.bar(x - bar_width*i, num[o], width=bar_width, color=colors[i],label=o)
     i=i+1
 
   #labels
   #adjust x until it is centered
-  plt.xticks(x + bar_width*2, aa)
+  plt.xticks(x, aa)
   plt.title('Catalase de 4 organismos')
   plt.xlabel('Aminoácido')
   plt.ylabel('Número de ocorrências')
 
   #legend
-  green_patch = mpatches.Patch(color='green', label=organismos[0])
-  red_patch=mpatches.Patch(color='red', label=organismos[1])
-  orange_patch = mpatches.Patch(color='orange', label=organismos[2])
-  blue_patch = mpatches.Patch(color='blue', label=organismos[3])
-  plt.legend(handles=[green_patch, red_patch,orange_patch, blue_patch],loc='upper center', bbox_to_anchor=(0.5, -0.05),fancybox=True, shadow=True, ncol=5)
+  plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.1),
+          ncol=4, fancybox=True)
 
   #grid
   plt.grid(axis='y')
   plt.savefig('Passo 3/Catalase de 4 organismos.png', transparent=False, dpi=80, bbox_inches="tight")
+  plt.close('all')

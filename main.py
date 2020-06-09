@@ -20,26 +20,27 @@ with open('Passo 3/Catalase-aminoacidos.txt','w') as l:
   organismos2=dict()
   for o in organismos:
     l.write(o.upper())
-    l.write('\n%20s|%18s|%21s|%23s'%('Código do aminoácido','Nome do aminoácido','Número de ocorrências','Posições de ocorrências'))
+    l.write('\n%20s|%27s|%21s|%23s'%('Código do aminoácido','Nome do aminoácido','Número de ocorrências','Posições de ocorrências'))
     aa3=[]
     aa2=[]
     num=[]
-    lista=''
     códigos=[]
     for a in aa:
+      lista=''
+      #if dna[o].count(a)>0:
+      aa2.append(aa[a])
+      num.append(dna[o].count(a))
       if dna[o].count(a)>0:
-        aa2.append(aa[a])
-        num.append(dna[o].count(a))
         for b in re.finditer(a,dna[o]):
           if lista=='':
             lista=str(b.start())
           else:
             lista=lista+','+str(b.start())
-        l.write('\n%20s|%18s|%21s|%23s'%(a,aa[a],dna[o].count(a),lista))
-      if completo.count(a)>0:
-        códigos.append(a)
-        aa3.append(dna[o].count(a))
-    #Graficos.simples(o,aa2,num)
+      l.write('\n%20s|%27s|%21s|%23s'%(a,aa[a],dna[o].count(a),lista))
+      #if completo.count(a)>0:
+      códigos.append(a)
+      aa3.append(dna[o].count(a))
+    Graficos.simples(o,aa2,num)
     organismos2[o]=aa3
     l.write('\n\n')
 Graficos.agrupado(códigos,organismos2)
