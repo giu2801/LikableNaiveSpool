@@ -37,12 +37,12 @@ def agrupado(aa,num):
   i=0
   colors=['green','red','orange','blue']
   for o in organismos:
-    plt.bar(x - bar_width*i, num[o], width=bar_width, color=colors[i],label=o)
+    plt.bar(x + bar_width*i, num[o], width=bar_width, color=colors[i],label=o)
     i=i+1
 
   #labels
   #adjust x until it is centered
-  plt.xticks(x, aa)
+  plt.xticks(x+ bar_width*3/2, aa)
   plt.title('Catalase de 4 organismos')
   plt.xlabel('Aminoácido')
   plt.ylabel('Número de ocorrências')
