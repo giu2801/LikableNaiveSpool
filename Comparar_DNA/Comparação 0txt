@@ -1,6 +1,7 @@
-ASPARTIC ACID na Catalase de CAMUNDONGO e GADO-DOMÉSTICO
-Posição|    Camundongo|Gado-doméstico
-    228|             D|          N
-    495|             D|          E
-    252|             E|          D
-    443|             E|          D
+ISOLEUCINE(I) na Catalase de GADO-DOMÉSTICO e CAMUNDONGO
+Posição|Gado-doméstico|    Camundongo
+    294|             I|             T
+     34|             V|             I
+     40|             S|             I
+    160|             L|             I
+    516|             V|             I

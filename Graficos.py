@@ -35,20 +35,22 @@ def agrupado(aa,num):
   #use zorder to put bars in front of grid
   bar_width=0.2
   i=0
+  parametros=[-3/2,-1/2,1/2,3/2]
   colors=['green','red','orange','blue']
   for o in organismos:
-    plt.bar(x + bar_width*i, num[o], width=bar_width, color=colors[i],label=o)
+    plt.bar(x + bar_width*parametros[i], num[o], width=bar_width, color=colors[i],label=o)
     i=i+1
 
   #labels
   #adjust x until it is centered
-  plt.xticks(x+ bar_width*3/2, aa)
+  plt.xticks(x, aa)
+  plt.xticks(rotation=45)
   plt.title('Catalase de 4 organismos')
   plt.xlabel('Aminoácido')
   plt.ylabel('Número de ocorrências')
 
   #legend
-  plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.1),
+  plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.15),
           ncol=4, fancybox=True)
 
   #grid

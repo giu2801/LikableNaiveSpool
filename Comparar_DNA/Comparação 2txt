@@ -1,4 +1,7 @@
-CYSTEINE na Catalase de CÃO e GADO-DOMÉSTICO
-Posição|           Cão|Gado-doméstico
-    422|             C|          S
-    431|             C|          F
+HISTIDINE(H) na Catalase de CÃO e HUMANO
+Posição|           Cão|        Humano
+    258|             H|             Q
+    522|             H|             S
+     13|             L|             H
+    377|             Q|             H
+    499|             R|             H

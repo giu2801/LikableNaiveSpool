@@ -1,23 +1,26 @@
-A	Alanine
-B	Aspartic acid or Asparagine
-C	Cysteine
-D	Aspartic acid
-E	Glutamic acid
-F	Phenylalanine
-G	Glycine
-H	Histidine
-I	Isoleucine
-K	Lysine
-L	Leucine
-M	Methionine
-N	Asparagine
-P	Proline
-Q	Glutamine
-R	Arginine
-S	Serine
-T	Threonine
-V	Valine
-W	Tryptophan
-X	Unknown
-Y	Tyrosine
-Z	Glutamic acid or Glutamine
+Table 4-2. Standard IUB/IUPAC amino acid codes		
+		
+One-letter code	Amino acid	Three-letter code
+A	Alanine	Ala
+B	Aspartic acid or Asparagine	Asx
+C	Cysteine	Cys
+D	Aspartic acid	Asp
+E	Glutamic acid	Glu
+F	Phenylalanine	Phe
+G	Glycine	Gly
+H	Histidine	His
+I	Isoleucine	Ile
+K	Lysine	Lys
+L	Leucine	Leu
+M	Methionine	Met
+N	Asparagine	Asn
+P	Proline	Pro
+Q	Glutamine	Gln
+R	Arginine	Arg
+S	Serine	Ser
+T	Threonine	Thr
+V	Valine	Val
+W	Tryptophan	Trp
+X	Unknown	Xxx
+Y	Tyrosine	Tyr
+Z	Glutamic acid or Glutamine	Glx
