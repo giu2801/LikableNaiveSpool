@@ -1,3 +1,6 @@
+#Para realizar este passo escreva um programa que leia cada arquivo de proteína baixada em formato FASTA, identifique todos os animoácidos e gere um arquivo com o nome no formato 'proteína-aminoacidos.txt' com uma tabela com as seguintes colunas:
+#Código do aminoácido | Nome completo do aminoácido | O número de ocorrências na sequencia | Lista de posições de ocorrências separadas com vírgula
+#Prepare um histograma de número de ocorrências de aminoácidos para cada organismo usando biblioteca matplotlib.
 def analisar():
   aa=dict()
   aa2=dict()

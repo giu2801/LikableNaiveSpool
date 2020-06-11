@@ -1,0 +1,3 @@
+TYROSINE(Y) na Catalase de CÃO e CÃO MUTAÇÃO
+Posição|           Cão|   Cão Mutação
+     48|             P|             Y

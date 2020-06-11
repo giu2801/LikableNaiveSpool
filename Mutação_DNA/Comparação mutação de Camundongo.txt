@@ -1,0 +1,3 @@
+VALINE(V) na Catalase de CAMUNDONGO e CAMUNDONGO MUTAÇÃO
+Posição|    Camundongo|Camundongo Mutação
+    186|             D|             V
