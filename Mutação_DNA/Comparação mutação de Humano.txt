@@ -1,3 +1,5 @@
-LYSINE(K) na Catalase de HUMANO e HUMANO MUTAÇÃO
+Catalase de HUMANO e HUMANO MUTAÇÃO
 Posição|        Humano|Humano Mutação
-    402|             N|             K
+    183|             M|             V
+
+99.81% de semelhança

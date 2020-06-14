@@ -1,8 +1,42 @@
-LYSINE(K) na Catalase de GADO-DOMÉSTICO e CAMUNDONGO
-Posição|Gado-doméstico|    Camundongo
-     22|             K|             R
-    290|             S|             K
-    310|             G|             K
-    324|             R|             K
-    436|             Q|             K
-    529|             R|             K
+Catalase de CAMUNDONGO e CÃO
+Posição|    Camundongo|           Cão
+      1|             S|             A
+     13|             Q|             L
+     20|             S|             A
+     22|             R|             K
+     40|             I|             V
+     45|             S|             P
+     93|             R|             K
+    117|             T|             A
+    228|             D|             A
+    249|             P|             S
+    251|             G|             E
+    252|             E|             D
+    254|             G|             A
+    257|             A|             S
+    258|             Q|             H
+    274|             N|             T
+    290|             K|             S
+    291|             E|             Q
+    306|             V|             I
+    310|             K|             Q
+    324|             K|             R
+    384|             Y|             F
+    400|             H|             L
+    422|             S|             C
+    423|             A|             V
+    429|             V|             S
+    432|             A|             S
+    433|             V|             P
+    436|             K|             Q
+    454|             T|             L
+    458|             N|             G
+    490|             T|             S
+    519|             Y|             F
+    520|             T|             M
+    522|             A|             H
+    526|             M|             L
+    529|             K|             R
+    530|             G|             E
+
+92.91% de semelhança

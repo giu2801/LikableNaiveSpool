@@ -1,3 +1,5 @@
-HISTIDINE(H) na Catalase de GADO-DOMÉSTICO e GADO-DOMÉSTICO MUTAÇÃO
+Catalase de GADO-DOMÉSTICO e GADO-DOMÉSTICO MUTAÇÃO
 Posição|Gado-doméstico|Gado-doméstico Mutação
-    475|             D|             H
+    428|             R|             X
+
+99.81% de semelhança

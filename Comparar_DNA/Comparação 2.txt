@@ -1,7 +1,60 @@
-HISTIDINE(H) na Catalase de CÃO e HUMANO
-Posição|           Cão|        Humano
-    258|             H|             Q
-    522|             H|             S
-     13|             L|             H
-    377|             Q|             H
-    499|             R|             H
+Catalase de HUMANO e CAMUNDONGO
+Posição|        Humano|    Camundongo
+      1|             A|             S
+     12|             Q|             K
+     13|             H|             Q
+     20|             A|             S
+     22|             K|             R
+     23|             A|             P
+     30|             A|             G
+     34|             V|             I
+     40|             V|             I
+     41|             I|             M
+     43|             V|             A
+     45|             P|             S
+     93|             K|             R
+    106|             K|             R
+    117|             A|             T
+    159|             P|             A
+    228|             N|             D
+    249|             S|             P
+    251|             E|             G
+    252|             D|             E
+    254|             A|             G
+    257|             S|             A
+    265|             I|             L
+    274|             T|             N
+    276|             K|             N
+    290|             N|             K
+    291|             Q|             E
+    324|             R|             K
+    336|             I|             M
+    349|             A|             P
+    377|             H|             Q
+    400|             Q|             H
+    415|             G|             S
+    421|             P|             R
+    429|             I|             V
+    431|             Y|             C
+    432|             S|             A
+    433|             G|             V
+    434|             E|             D
+    436|             R|             K
+    440|             T|             S
+    443|             D|             E
+    451|             A|             T
+    454|             V|             T
+    455|             N|             K
+    461|             Q|             E
+    478|             I|             L
+    491|             E|             D
+    498|             S|             A
+    499|             H|             R
+    519|             F|             Y
+    520|             V|             T
+    522|             S|             A
+    526|             L|             M
+    529|             R|             K
+    530|             E|             G
+
+89.55% de semelhança

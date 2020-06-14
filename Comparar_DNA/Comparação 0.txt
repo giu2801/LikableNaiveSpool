@@ -1,7 +1,49 @@
-ISOLEUCINE(I) na Catalase de GADO-DOMÉSTICO e CAMUNDONGO
-Posição|Gado-doméstico|    Camundongo
-    294|             I|             T
-     34|             V|             I
-     40|             S|             I
+Catalase de GADO-DOMÉSTICO e HUMANO
+Posição|Gado-doméstico|        Humano
+      3|             N|             S
+     12|             K|             Q
+     23|             P|             A
+     30|             G|             A
+     40|             S|             V
+     41|             L|             I
+     93|             R|             K
+    106|             R|             K
+    159|             A|             P
     160|             L|             I
+    257|             A|             S
+    258|             H|             Q
+    265|             L|             I
+    276|             N|             K
+    282|             L|             F
+    290|             S|             N
+    291|             E|             Q
+    294|             I|             T
+    310|             G|             K
+    336|             L|             I
+    349|             P|             A
+    377|             Q|             H
+    400|             M|             Q
+    415|             S|             G
+    419|             H|             Q
+    428|             R|             S
+    429|             T|             I
+    430|             H|             Q
+    431|             F|             Y
+    434|             D|             E
+    436|             Q|             R
+    440|             S|             T
+    451|             T|             A
+    454|             L|             V
+    455|             K|             N
+    478|             L|             I
+    490|             S|             T
+    491|             D|             E
+    495|             E|             D
+    499|             R|             H
+    509|             E|             A
     516|             V|             I
+    519|             Y|             F
+    522|             H|             S
+    527|             S|             A
+
+91.6% de semelhança

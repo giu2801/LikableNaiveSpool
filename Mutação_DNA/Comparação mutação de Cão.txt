@@ -1,3 +1,5 @@
-TYROSINE(Y) na Catalase de CÃO e CÃO MUTAÇÃO
+Catalase de CÃO e CÃO MUTAÇÃO
 Posição|           Cão|   Cão Mutação
-     48|             P|             Y
+    366|             T|             P
+
+99.81% de semelhança
